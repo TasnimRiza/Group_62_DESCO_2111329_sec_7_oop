@@ -9,7 +9,6 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sulthanatasnimriza.group_62_desco_2111329_sec_7_oop.ManageScheduledOutages">
    <children>
       <Label layoutX="9.0" layoutY="13.0" prefHeight="26.0" prefWidth="190.0" text=" Manage Scheduled Outages" />
@@ -31,5 +30,6 @@
       <TextArea layoutX="200.0" layoutY="126.0" prefHeight="26.0" prefWidth="200.0" text="Log Outcome " />
       <Button layoutX="56.0" layoutY="322.0" mnemonicParsing="false" text="Mark as Completed" />
       <Button layoutX="220.0" layoutY="322.0" mnemonicParsing="false" text="Save Log" />
+      <Button layoutX="499.0" layoutY="13.0" mnemonicParsing="false" text="Log out" />
    </children>
 </AnchorPane>

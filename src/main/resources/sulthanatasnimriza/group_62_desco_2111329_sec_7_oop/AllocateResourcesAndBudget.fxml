@@ -7,7 +7,6 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sulthanatasnimriza.group_62_desco_2111329_sec_7_oop.AllocateResourcesAndBudget">
    <children>
       <Label layoutX="9.0" layoutY="5.0" prefHeight="15.0" prefWidth="184.0" text="Allocate Resources and Budget" />
@@ -19,5 +18,6 @@
       <TextField layoutX="28.0" layoutY="213.0" text="Cost Estimate" />
       <Label layoutX="28.0" layoutY="255.0" prefHeight="18.0" prefWidth="198.0" text=" shows warning if double-booked" />
       <Button layoutX="27.0" layoutY="294.0" mnemonicParsing="false" text="Save Allocation" />
+      <Button layoutX="492.0" layoutY="29.0" mnemonicParsing="false" text="Log out" />
    </children>
 </AnchorPane>

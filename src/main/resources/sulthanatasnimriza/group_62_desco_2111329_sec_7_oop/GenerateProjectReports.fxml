@@ -7,7 +7,6 @@
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sulthanatasnimriza.group_62_desco_2111329_sec_7_oop.GenerateProjectReports">
    <children>
       <Label layoutX="26.0" layoutY="28.0" text="Generate Project Reports" />
@@ -19,5 +18,6 @@
       <Button layoutX="12.0" layoutY="292.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="104.0" text="Export to PDF" />
       <Button layoutX="120.0" layoutY="287.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="126.0" text="Export to Excel" />
       <TextArea layoutX="20.0" layoutY="204.0" prefHeight="44.0" prefWidth="126.0" text=" Preview Area" />
+      <Button layoutX="492.0" layoutY="29.0" mnemonicParsing="false" text="Log out" />
    </children>
 </AnchorPane>

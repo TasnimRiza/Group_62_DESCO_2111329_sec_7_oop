@@ -7,7 +7,6 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sulthanatasnimriza.group_62_desco_2111329_sec_7_oop.AssignAndTrackMaintenanceTasks">
    <children>
       <Label layoutX="14.0" layoutY="9.0" prefHeight="18.0" prefWidth="237.0" text="Assign and Track Maintenance Tasks" />
@@ -18,5 +17,6 @@
       <ComboBox layoutX="15.0" layoutY="200.0" prefHeight="26.0" prefWidth="200.0" promptText="Assign to Field Staff or Team" />
       <Button layoutX="11.0" layoutY="277.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="90.0" text="Create Task" />
       <Button layoutX="127.0" layoutY="277.0" mnemonicParsing="false" text="Update Status" />
+      <Button layoutX="492.0" layoutY="29.0" mnemonicParsing="false" text="Log out" />
    </children>
 </AnchorPane>

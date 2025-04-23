@@ -7,7 +7,6 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sulthanatasnimriza.group_62_desco_2111329_sec_7_oop.LoginProcess">
    <children>
       <Label layoutX="38.0" layoutY="33.0" text="UserId:" />
@@ -17,5 +16,6 @@
       <Button layoutX="41.0" layoutY="164.0" mnemonicParsing="false" text="Login" />
       <Label layoutX="34.0" layoutY="111.0" text="Emploiee Role:" />
       <ComboBox layoutX="128.0" layoutY="107.0" prefWidth="150.0" promptText="Project Manager" visibleRowCount="3" />
+      <Button layoutX="492.0" layoutY="29.0" mnemonicParsing="false" text="Log out" />
    </children>
 </AnchorPane>

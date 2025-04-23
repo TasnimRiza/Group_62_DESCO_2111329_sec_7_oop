@@ -8,7 +8,6 @@
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sulthanatasnimriza.group_62_desco_2111329_sec_7_oop.TrackProjectProgress">
    <children>
       <Label layoutX="71.0" layoutY="82.0" prefHeight="18.0" prefWidth="0.0" />
@@ -26,5 +25,6 @@
       </TableView>
       <Label layoutX="29.0" layoutY="316.0" text="Task Progress" />
       <Label layoutX="29.0" layoutY="282.0" text="Task Details" />
+      <Button layoutX="482.0" layoutY="19.0" mnemonicParsing="false" text="Log out" />
    </children>
 </AnchorPane>
