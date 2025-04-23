@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sulthanatasnimriza.group_62_desco_2111329_sec_7_oop.CreateAndPlanNewProjects">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text=" Create and Plan New Projectsl" />
+      <Label layoutX="21.0" layoutY="40.0" text="User Id:" />
+      <Label layoutX="21.0" layoutY="73.0" text="Password:" />
+      <TextField layoutX="74.0" layoutY="36.0" />
+      <PasswordField layoutX="82.0" layoutY="69.0" />
+      <Button layoutX="248.0" layoutY="45.0" mnemonicParsing="false" text="Login" />
+      <Button layoutX="21.0" layoutY="106.0" mnemonicParsing="false" text="Create Project" />
+      <Button layoutX="21.0" layoutY="289.0" mnemonicParsing="false" text="Submit" />
+      <TableView layoutX="24.0" layoutY="152.0" prefHeight="107.0" prefWidth="378.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Title" />
+          <TableColumn prefWidth="75.0" text="Description" />
+            <TableColumn prefWidth="75.0" text="objectives" />
+            <TableColumn prefWidth="75.0" text=" Start date" />
+            <TableColumn prefWidth="75.0" text="End date" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
